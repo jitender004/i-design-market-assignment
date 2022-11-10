@@ -1,0 +1,29 @@
+.App {
+  /* margin-bottom:1rem; */
+  /* display:flex;
+  flex-direction: column; */
+}
+.products_app {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.product-list {
+  border: 1px solid red;
+  /* width: 10rem; */
+  padding: 2rem;
+}
+.product-list img {
+  width: 100px;
+  height: 100px;
+  margin: -1.2rem 0 0;
+  border-radius: 0.5rem;
+}
+.filter_Products {
+  margin-bottom: 1rem;
+}
+.filter_Products select {
+  margin-right: 0.8rem;
+}
